@@ -13,7 +13,7 @@
 //       <Text className="text-green-500 font-semibold">{item.price}</Text>
 //     </View>
 //   );
-// };
+// };                                                                                      
 
 // // Main Component
 // const TestComponent = () => {
@@ -77,6 +77,10 @@
 //     setIsTranslucent(prev => !prev);
 //   };
 
+//   const toggleModal = () => {
+//     setModalVisible(!modalVisible);
+//   }
+
 //   return (
 //     <SafeAreaProvider>
 //       <ImageBackground source={{ uri: 'https://picsum.photos/800/600' }} className="flex-1">
@@ -104,7 +108,7 @@
 //                 onPress={() => setButtonPressed(buttonPressed + 1)}
 //               >
 //                 <Text className="text-white text-lg font-bold px-4 py-2 rounded-[100px]">
-//                   Press me
+//                   Press me 
 //                 </Text>
 //               </TouchableHighlight>
 //             </View>
@@ -119,11 +123,12 @@
 //                 ios_backgroundColor="#3e3e3e"
 //                 onValueChange={setIsSwitchEnabled}
 //                 value={isSwitchEnabled}
-//               />
+//               /> 
 //             </View>
-
+ 
 //             <View className="flex flex-col  mb-4 space-y-3">
 //               <TouchableHighlight
+                   
 //                 onPress={toggleStatusBarColor}
 //                 className="bg-purple-500 p-3 rounded-md"
 //               >
@@ -205,8 +210,7 @@
 //       </ImageBackground>
 //     </SafeAreaProvider>
 //   );
-// };
-
+// };  
 
 
 // export default TestComponent;
